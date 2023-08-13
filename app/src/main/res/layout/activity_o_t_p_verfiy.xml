@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical"
+    tools:context=".Activities.OTPVerfiyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="20dp" />
+
+        <LinearLayout
+            android:id="@+id/Ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ll_1"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="0.20"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="180dp"
+                android:src="@drawable/pms_logo" />
+
+            <TextView
+                android:id="@+id/Tvlogin_TitleOld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="Verification Code"
+                android:textAllCaps="false"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="25sp"
+                android:visibility="visible" />
+            <!--as per client requirement remove control dated 17 Sep 2020-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Ll_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ll_2"
+            android:layout_weight="0.50"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:id="@+id/Ll_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tvlogin_Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingBottom="2dp"
+                    android:text="Enter OTP(Sent on your Email Address/Mobile Number"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Et_OTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/textbox_border"
+                    android:hint="Enter OTP Code"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColorHint="#b3b3b3"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/resendOTP_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:hint="Resend OTP"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:textColorHint="#01b2de"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_7"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_7"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="0.50"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_verifyOTP"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_radius_color"
+                        android:text="Verify"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_7"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="0.50"
+                    android:gravity="right"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/btn_Cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_radius_cancel"
+                        android:gravity="center"
+                        android:text="Cancel"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/login_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:hint="Login"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="#01b2de"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

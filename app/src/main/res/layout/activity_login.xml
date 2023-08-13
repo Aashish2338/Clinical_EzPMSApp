@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HeadId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Activities.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Ll_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="20dp" />
+
+            <LinearLayout
+                android:id="@+id/Ll_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_1"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="0.20"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/pms_logo" />
+
+                <TextView
+                    android:id="@+id/Tvlogin_TitleOld"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Sign-In"
+                    android:textAllCaps="false"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="25sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Ll_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_2"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <LinearLayout
+                    android:id="@+id/Ll_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Tvlogin_Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="User ID"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/Et_LoginId"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Enter User ID"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_4"
+                    android:orientation="vertical"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/TvPassword_Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:paddingBottom="2dp"
+                        android:text="Password"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textbox_border"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/Et_Password"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_weight="0.90"
+                            android:background="@null"
+                            android:hint="Enter Password"
+                            android:inputType="textPassword"
+                            android:maxLength="100"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:password="true"
+                            android:textColorHint="#b3b3b3"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/show_pass_btn"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_toRightOf="@id/Et_Password"
+                            android:padding="10dp"
+                            android:src="@drawable/eye_black_hide" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_5"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp">
+
+                    <Button
+                        android:id="@+id/btn_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_radius_color"
+                        android:text="Login"
+                        android:textColor="#FFF"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_6"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="32dp">
+
+                    <TextView
+                        android:id="@+id/TvToRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="all"
+                        android:fontFamily="@string/Fontbold"
+                        android:paddingBottom="2dp"
+                        android:text="Register Your Clinic"
+                        android:textColor="#01b2de"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_7"
+                    android:orientation="horizontal"
+                    android:paddingTop="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/linear9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Ll_7"
+                        android:layout_weight="0.50"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/Chk_RememberMe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="#b3b3b3"
+                            android:text="Remember Me"
+                            android:textColor="#b3b3b3"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Ll_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Ll_7"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.50"
+                        android:gravity="right"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/TvForgotPassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoLink="all"
+                            android:text="Forgot Password?"
+                            android:textColor="#b3b3b3"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Ll_28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_3"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.30"
+                android:gravity="bottom|left"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TvAppVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:paddingLeft="12dp"
+                    android:paddingBottom="3dp"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/Android_lightGray"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Ll_29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_3"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.30"
+                android:gravity="bottom|right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TvVatechInitiative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="3dp"
+                    android:text="A Vatech India Initiative"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@color/Android_lightGray"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

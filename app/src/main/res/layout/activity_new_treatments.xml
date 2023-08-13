@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Treatments.NewTreatmentsActivity">
+
+    <include
+        android:id="@+id/Ll1111"
+        layout="@layout/common_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Ll1111"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/recentAppoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTreatmentDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="8dp"
+                        android:text="Treatment Details"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/treatments"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTreatmentDetails"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Treatment Date"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="18sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/textbox_border"
+                                android:orientation="horizontal"
+                                android:weightSum="1">
+
+                                <EditText
+                                    android:id="@+id/treatmentDate_Et"
+                                    android:layout_width="0dp"
+                                    android:layout_height="45dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_weight=".8"
+                                    android:background="@drawable/textbox_border"
+                                    android:clickable="false"
+                                    android:cursorVisible="false"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Select Treatment Date"
+                                    android:inputType="date"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="10dp"
+                                    android:paddingRight="5dp"
+                                    android:paddingBottom="10dp"
+                                    android:textColorHint="#b3b3b3"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:id="@+id/calander_Im"
+                                    android:layout_width="0dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".2"
+                                    android:src="@drawable/calendar_icon" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Symptoms"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/symptomsName_Et"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/textbox_border"
+                                android:hint="Enter Symptoms"
+                                android:inputType="text|textNoSuggestions"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:textColorHint="#b3b3b3"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Treatment"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/treatmentDetails_Et"
+                                android:layout_width="match_parent"
+                                android:layout_height="75dp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/textbox_border"
+                                android:gravity="top|left"
+                                android:hint="Enter Treatment Details"
+                                android:inputType="textMultiLine"
+                                android:lines="4"
+                                android:minLines="4"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:scrollHorizontally="false"
+                                android:textColorHint="#b3b3b3"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Medicine Prescribed"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/medicinePrescribed_Et"
+                                android:layout_width="match_parent"
+                                android:layout_height="75dp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/textbox_border"
+                                android:gravity="top|left"
+                                android:hint="Enter Medicine Prescribed"
+                                android:inputType="textMultiLine"
+                                android:lines="4"
+                                android:minLines="4"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:scrollHorizontally="false"
+                                android:textColorHint="#b3b3b3"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/treatments"
+                        android:layout_marginLeft="16sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <Button
+                            android:id="@+id/addDetails_Btn"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/btn_radius_color"
+                            android:text="Add Details"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/cancel_Btn"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/btn_radius_cancel"
+                            android:gravity="center"
+                            android:text="Cancel"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/x_Rays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recentAppoint"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textXRaysDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="8dp"
+                        android:text="Upload Patient Documents"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/Ll_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textXRaysDetails"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Tvlogin_Title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Document Type"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="18sp" />
+
+                            <Spinner
+                                android:id="@+id/documentsTypeSpinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/sort_spinner"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:textColorHint="#b3b3b3" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:paddingBottom="2dp"
+                            android:text="Upload Document(s)"
+                            android:textAppearance="@android:style/TextAppearance.Large"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/treatments"
+                            android:layout_marginLeft="8sp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8sp"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <Button
+                                android:id="@+id/uploadDocuments_Btn"
+                                android:layout_width="0dp"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight=".5"
+                                android:background="@drawable/btn_radius_color"
+                                android:gravity="center"
+                                android:text="Browse"
+                                android:textAllCaps="false"
+                                android:textColor="#FFF"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:id="@+id/image_Llll"
+                                android:layout_width="0dp"
+                                android:layout_height="100dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight=".5"
+                                android:background="@drawable/textbox_border"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <ImageView
+                                    android:id="@+id/documents"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_marginBottom="2dp"
+                                    android:rotation="270"
+                                    android:scaleType="fitXY" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Ll_4"
+                        android:layout_marginLeft="16sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="16sp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <Button
+                            android:id="@+id/upload_Btn"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/btn_radius_color"
+                            android:text="Upload"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/bTN_Cancel"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/btn_radius_cancel"
+                            android:gravity="center"
+                            android:text="Cancel"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EzPMS</string>
+
+    <string name="Font">Fonts/Vatech-Light.otf</string>
+    <string name="FontFamilyLight">Fonts/Vatech-Light.otf</string>
+    <string name="FontFamilyRegular">Fonts/Vatech-Regular.otf</string>
+    <string name="Fontbold">Fonts/Vatech-Regular.otf</string>
+    <string name="title_appointments">Appointments</string>
+    <string name="title_patients">Patients</string>
+    <string name="title_treatments">Treatments</string>
+    <string name="title_more">More</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="please_check_your_connection">Please check your internet connection!</string>
+</resources>

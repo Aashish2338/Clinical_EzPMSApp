@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sync_Menu"
+        android:icon="@drawable/sync"
+        android:title="Sync"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/notic_Menu"
+        android:icon="@drawable/notification_new"
+        android:title="Notic"
+        app:showAsAction="ifRoom" />
+
+</menu>

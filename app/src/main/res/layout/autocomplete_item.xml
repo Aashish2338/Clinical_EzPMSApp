@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textPatients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="8dp"
+        android:text=""
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="16dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

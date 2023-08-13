@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    tools:context=".Treatments.TreatmentsHistoryActivity">
+
+    <include
+        android:id="@+id/Ll1111"
+        layout="@layout/common_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Ll1111"
+
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/recentAppoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textTreatmentDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="16dp"
+                        android:text="Treatment Details Scheduled Appointment Date : 23-July-2021"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textTreatment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTreatmentDetails"
+                        android:layout_gravity="center"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="No Treatment Data Available"
+                        android:textAlignment="center"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/red"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textTreatment"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Treatment Date"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textStyle="bold"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/textbox_border"
+                                android:orientation="horizontal"
+                                android:weightSum="1">
+
+                                <EditText
+                                    android:id="@+id/selectDate_Et"
+                                    android:layout_width="0dp"
+                                    android:layout_height="45dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_weight=".8"
+                                    android:background="@drawable/textbox_border"
+                                    android:clickable="false"
+                                    android:cursorVisible="false"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Select Treatment Date"
+                                    android:inputType="date"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="10dp"
+                                    android:paddingRight="5dp"
+                                    android:paddingBottom="10dp"
+                                    android:textColor="#3A3A3A"
+                                    android:textSize="16sp" />
+
+                                <ImageView
+                                    android:id="@+id/calander_Im"
+                                    android:layout_width="0dp"
+                                    android:layout_height="35dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".2"
+                                    android:src="@drawable/calendar_icon" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Symptoms"
+                                android:textStyle="bold"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                android:id="@+id/symptomsName_Et"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/textbox_border"
+                                android:hint="No Symptoms"
+                                android:inputType="text|textNoSuggestions"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:textColor="#3A3A3A"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Treatment"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
+
+                            <EditText
+                                android:id="@+id/treatment_Et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/textbox_border"
+                                android:gravity="top|left"
+                                android:hint="No Treatment"
+                                android:inputType="textMultiLine"
+                                android:lines="4"
+                                android:minLines="4"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:scrollHorizontally="false"
+                                android:textColor="#3A3A3A"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:paddingBottom="2dp"
+                                android:text="Medicine Prescribed"
+                                android:textAppearance="@android:style/TextAppearance.Large"
+                                android:textSize="16sp"
+                                android:textStyle="bold"/>
+
+                            <EditText
+                                android:id="@+id/medicinePrescribed_Et"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/textbox_border"
+                                android:gravity="top|left"
+                                android:hint="No Medicine Prescribed"
+                                android:inputType="textMultiLine"
+                                android:lines="4"
+                                android:minLines="4"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="10dp"
+                                android:scrollHorizontally="false"
+                                android:textColor="#3A3A3A"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/x_Rays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recentAppoint"
+                android:layout_margin="6dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textXRaysDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="8dp"
+                        android:text="X-Rays"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textXRaysDetails"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txt_xRay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textTreatmentDetails"
+                            android:layout_gravity="center"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="No Report Available"
+                            android:textAlignment="center"
+                            android:textAppearance="@android:style/TextAppearance.Large"
+                            android:textColor="@color/oldCanBtn"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/img_xRay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/doctor_avatar"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/prescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/x_Rays"
+                android:layout_margin="6dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textPrescriptionDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="8dp"
+                        android:text="Prescriptions"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textPrescriptionDetails"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/text_Prescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textTreatmentDetails"
+                            android:layout_gravity="center"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="No Report Available"
+                            android:textAlignment="center"
+                            android:textAppearance="@android:style/TextAppearance.Large"
+                            android:textColor="@color/oldCanBtn"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/img_Prescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/doctor_avatar"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/otherDocuments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prescription"
+                android:layout_margin="6dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textDocumentsDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="8dp"
+                        android:text="Other Documents"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textDocumentsDetails"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/txt_Others"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textTreatmentDetails"
+                            android:layout_gravity="center"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="No Report Available"
+                            android:textAlignment="center"
+                            android:textAppearance="@android:style/TextAppearance.Large"
+                            android:textColor="@color/oldCanBtn"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/img_Others"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/doctor_avatar"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/previousTreatment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/otherDocuments"
+                android:layout_margin="6dp"
+                android:padding="8dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardMaxElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textPreviousDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/blue"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="start"
+                        android:padding="8dp"
+                        android:text="Previous Treatment"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textPreviousDetails"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/appointmentsDate_Tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textTreatmentDetails"
+                            android:layout_gravity="center"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="RCT Appointments Date :23-July-2021, Not Treated Yet"
+                            android:textAlignment="center"
+                            android:textAppearance="@android:style/TextAppearance.Large"
+                            android:textColor="#3A3A3A"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/previousTreatment"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="6dp"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/btn_AppointmentDetails"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_radius_color"
+                        android:text="Appointment Details"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_UpdateAppointment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_radius_color"
+                        android:text="Update Appointment"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/btn_NewTreatment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/btn_radius_color"
+                        android:text="New Treatment"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

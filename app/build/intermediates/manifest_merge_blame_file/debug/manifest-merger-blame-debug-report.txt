@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ezpms.ezpmsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:8:5-76
+14-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+15-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:10:5-80
+16-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:11:22-78
+18
+19    <application
+19-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:13:5-136:19
+20        android:name="androidx.multidex.MultiDexApplication"
+20-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:14:9-61
+21        android:allowBackup="true"
+21-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:15:9-35
+22        android:allowClearUserData="true"
+22-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:16:9-42
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@drawable/icon_ezpms"
+25-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:17:9-44
+26        android:label="@string/app_name"
+26-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:18:9-41
+27        android:largeHeap="true"
+27-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:19:9-33
+28        android:roundIcon="@drawable/icon_ezpms"
+28-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:20:9-49
+29        android:supportsRtl="true"
+29-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:21:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.EzpmsApp"
+31-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:22:9-46
+32        android:usesCleartextTraffic="true" >
+32-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:23:9-44
+33        <activity
+33-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:24:9-26:52
+34            android:name="com.ezpms.ezpmsapp.Activities.AddUserActivity"
+34-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:25:13-55
+35            android:screenOrientation="portrait" />
+35-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:26:13-49
+36        <activity
+36-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:27:9-29:52
+37            android:name="com.ezpms.ezpmsapp.Appointments.AppointmentsRegistrationActivity"
+37-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:28:13-74
+38            android:screenOrientation="portrait" />
+38-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:29:13-49
+39        <activity
+39-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:30:9-32:52
+40            android:name="com.ezpms.ezpmsapp.Activities.ChangePasswordActivity"
+40-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:31:13-62
+41            android:screenOrientation="portrait" />
+41-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:32:13-49
+42        <activity
+42-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:33:9-35:52
+43            android:name="com.ezpms.ezpmsapp.Activities.ViewSupportDetailsActivity"
+43-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:34:13-66
+44            android:screenOrientation="portrait" />
+44-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:35:13-49
+45        <activity
+45-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:36:9-38:52
+46            android:name="com.ezpms.ezpmsapp.Activities.NoticeDetailsActivity"
+46-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:37:13-61
+47            android:screenOrientation="portrait" />
+47-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:38:13-49
+48        <activity
+48-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:39:9-41:52
+49            android:name="com.ezpms.ezpmsapp.Activities.UserUpdateActivity"
+49-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:40:13-58
+50            android:screenOrientation="portrait" />
+50-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:41:13-49
+51        <activity
+51-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:42:9-44:52
+52            android:name="com.ezpms.ezpmsapp.Appointments.UpdateAppointmentsActivity"
+52-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:43:13-68
+53            android:screenOrientation="portrait" />
+53-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:44:13-49
+54        <activity
+54-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:45:9-47:52
+55            android:name="com.ezpms.ezpmsapp.Treatments.NewTreatmentsActivity"
+55-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:46:13-61
+56            android:screenOrientation="portrait" />
+56-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:47:13-49
+57        <activity
+57-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:48:9-50:52
+58            android:name="com.ezpms.ezpmsapp.Treatments.TreatmentsHistoryActivity"
+58-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:49:13-65
+59            android:screenOrientation="portrait" />
+59-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:50:13-49
+60        <activity
+60-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:51:9-53:52
+61            android:name="com.ezpms.ezpmsapp.Appointments.AppointmentDetailsActivity"
+61-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:52:13-68
+62            android:screenOrientation="portrait" />
+62-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:53:13-49
+63        <activity
+63-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:54:9-56:52
+64            android:name="com.ezpms.ezpmsapp.Activities.OTPVerfiyActivity"
+64-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:55:13-57
+65            android:screenOrientation="portrait" />
+65-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:56:13-49
+66        <activity
+66-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:57:9-59:52
+67            android:name="com.ezpms.ezpmsapp.Activities.MonthViewsActivity"
+67-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:58:13-58
+68            android:screenOrientation="portrait" />
+68-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:59:13-49
+69        <activity
+69-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:60:9-62:52
+70            android:name="com.ezpms.ezpmsapp.Activities.WeekViewsActivity"
+70-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:61:13-57
+71            android:screenOrientation="portrait" />
+71-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:62:13-49
+72        <activity
+72-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:63:9-65:52
+73            android:name="com.ezpms.ezpmsapp.Activities.DayViewsActivity"
+73-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:64:13-56
+74            android:screenOrientation="portrait" />
+74-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:65:13-49
+75        <activity
+75-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:66:9-68:52
+76            android:name="com.ezpms.ezpmsapp.PMSSetup.AboutPMSActivity"
+76-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:67:13-54
+77            android:screenOrientation="portrait" />
+77-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:68:13-49
+78        <activity
+78-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:69:9-71:52
+79            android:name="com.ezpms.ezpmsapp.Activities.WeekViewAppointmentActivity"
+79-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:70:13-67
+80            android:screenOrientation="portrait" />
+80-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:71:13-49
+81        <activity
+81-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:72:9-74:52
+82            android:name="com.ezpms.ezpmsapp.PMSSetup.EditAdminProfileActivity"
+82-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:73:13-62
+83            android:screenOrientation="portrait" />
+83-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:74:13-49
+84        <activity
+84-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:75:9-77:52
+85            android:name="com.ezpms.ezpmsapp.PMSSetup.UpdateUserIdActivity"
+85-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:76:13-58
+86            android:screenOrientation="portrait" />
+86-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:77:13-49
+87        <activity
+87-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:78:9-80:52
+88            android:name="com.ezpms.ezpmsapp.Patients.UpdatePatientDetailsActivity"
+88-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:79:13-66
+89            android:screenOrientation="portrait" />
+89-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:80:13-49
+90        <activity
+90-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:81:9-83:52
+91            android:name="com.ezpms.ezpmsapp.PMSSetup.VatechSVCActivity"
+91-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:82:13-55
+92            android:screenOrientation="portrait" />
+92-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:83:13-49
+93        <activity
+93-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:84:9-86:52
+94            android:name="com.ezpms.ezpmsapp.PMSSetup.NoticePMSSetupActivity"
+94-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:85:13-60
+95            android:screenOrientation="portrait" />
+95-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:86:13-49
+96        <activity
+96-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:87:9-89:52
+97            android:name="com.ezpms.ezpmsapp.PMSSetup.UsersPMSSetupActivity"
+97-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:88:13-59
+98            android:screenOrientation="portrait" />
+98-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:89:13-49
+99        <activity
+99-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:90:9-92:52
+100            android:name="com.ezpms.ezpmsapp.Appointments.RescheduleCancelActivity"
+100-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:91:13-66
+101            android:screenOrientation="portrait" />
+101-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:92:13-49
+102        <activity
+102-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:93:9-95:52
+103            android:name="com.ezpms.ezpmsapp.Appointments.NewAppointmentActivity"
+103-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:94:13-64
+104            android:screenOrientation="portrait" />
+104-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:95:13-49
+105        <activity
+105-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:96:9-98:52
+106            android:name="com.ezpms.ezpmsapp.Patients.PatientRegistrationActivity"
+106-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:97:13-65
+107            android:screenOrientation="portrait" />
+107-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:98:13-49
+108        <activity
+108-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:99:9-101:52
+109            android:name="com.ezpms.ezpmsapp.Treatments.NextVisitAppointmentActivity"
+109-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:100:13-68
+110            android:screenOrientation="portrait" />
+110-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:101:13-49
+111        <activity
+111-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:102:9-104:52
+112            android:name="com.ezpms.ezpmsapp.Treatments.TreatmentUpdateActivity"
+112-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:103:13-63
+113            android:screenOrientation="portrait" />
+113-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:104:13-49
+114        <activity
+114-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:105:9-107:52
+115            android:name="com.ezpms.ezpmsapp.Patients.PatientListActivity"
+115-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:106:13-57
+116            android:screenOrientation="portrait" />
+116-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:107:13-49
+117        <activity
+117-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:108:9-110:52
+118            android:name="com.ezpms.ezpmsapp.Activities.PMSSetupActivity"
+118-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:109:13-56
+119            android:screenOrientation="portrait" />
+119-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:110:13-49
+120        <activity
+120-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:111:9-113:52
+121            android:name="com.ezpms.ezpmsapp.Patients.NewRegistrationActivity"
+121-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:112:13-61
+122            android:screenOrientation="portrait" />
+122-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:113:13-49
+123        <activity
+123-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:114:9-116:52
+124            android:name="com.ezpms.ezpmsapp.Activities.ForgetPasswordActivity"
+124-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:115:13-62
+125            android:screenOrientation="portrait" />
+125-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:116:13-49
+126        <activity
+126-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:117:9-119:52
+127            android:name="com.ezpms.ezpmsapp.Activities.ClinitRegistrationActivity"
+127-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:118:13-66
+128            android:screenOrientation="portrait" />
+128-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:119:13-49
+129        <activity
+129-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:120:9-122:52
+130            android:name="com.ezpms.ezpmsapp.Activities.LoginActivity"
+130-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:121:13-53
+131            android:screenOrientation="portrait" />
+131-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:122:13-49
+132        <activity
+132-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:123:9-125:52
+133            android:name="com.ezpms.ezpmsapp.Activities.HomeActivity"
+133-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:124:13-52
+134            android:screenOrientation="portrait" />
+134-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:125:13-49
+135        <activity
+135-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:127:9-135:20
+136            android:name="com.ezpms.ezpmsapp.SplashActivity"
+136-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:128:13-43
+137            android:screenOrientation="portrait" >
+137-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:129:13-49
+138            <intent-filter>
+138-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:130:13-134:29
+139                <action android:name="android.intent.action.MAIN" />
+139-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:131:17-69
+139-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:131:25-66
+140
+141                <category android:name="android.intent.category.LAUNCHER" />
+141-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:133:17-77
+141-->D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:133:27-74
+142            </intent-filter>
+143        </activity>
+144    </application>
+145
+146</manifest>

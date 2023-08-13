@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    tools:context=".PMSSetup.EditAdminProfileActivity">
+
+    <include
+        android:id="@+id/Ln_000000"
+        layout="@layout/common_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Ln_000000"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Ll_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/pms_logo" />
+
+                <TextView
+                    android:id="@+id/Ll_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/blue"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="Clinic Detail"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Ll_333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_2"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp">
+
+                <LinearLayout
+                    android:id="@+id/Ll_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_1"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/clinicName_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Clinic Name*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/clinicName_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:hint="Clinic Name"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_33"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/addressFirst_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Address 1*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/addressFirst_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:gravity="top|left"
+                        android:hint="Clinic Address 1"
+                        android:inputType="textMultiLine"
+                        android:lines="4"
+                        android:minLines="4"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_44"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/addressSecond_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Address 2*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/addressSecond_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:gravity="top|left"
+                        android:hint="Clinic Address 2"
+                        android:inputType="textMultiLine"
+                        android:lines="4"
+                        android:minLines="4"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_55"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Country"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/countrySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/sort_spinner"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_66"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="State"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/stateSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/sort_spinner"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_77"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="City"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/citySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/sort_spinner"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_88"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Pin Code"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/pinCode_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Pin Code"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_99"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/packageName_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Package Name*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/packegeSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:descendantFocusability="blocksDescendants"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_00"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Upload Clinic Logo"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/uploadImage_Btn"
+                            android:layout_width="125dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/upload"
+                                android:src="@drawable/upload" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Browse"
+                                android:textAllCaps="false"
+                                android:textColor="#FFF"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/textbox_border"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/clinicImageUpload_Im"
+                                android:layout_width="200dp"
+                                android:layout_height="100dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginTop="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginBottom="1dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/pms_logo" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Ll_111"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/Ll_333"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:background="@color/blue"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:text="Admin Profile"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/Ll_444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_111"
+                android:layout_marginTop="8dp"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp">
+
+                <LinearLayout
+                    android:id="@+id/Ll_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Title*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/titleSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sort_spinner"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/firstName_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="First Name*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/edt_FirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="First Name"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lastName_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Last Name*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/lastName_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Last Name"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingBottom="2dp"
+                    android:text="Gender"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:id="@+id/maleCheck_Bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:buttonTint="#b3b3b3"
+                        android:text="Male"
+                        android:textColor="#b3b3b3"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/femaleCheck_Bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:buttonTint="#b3b3b3"
+                        android:text="Female"
+                        android:textColor="#b3b3b3"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/updateCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ln_OTP"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Ll_7"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="0.50"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/updateAccount_Btn"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:padding="8dp"
+                            android:text="Update Account"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Ll_7"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="0.50"
+                        android:gravity="right"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/cancel_Btn"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/btn_radius_cancel"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Cancel"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.30"
+                    android:gravity="bottom|left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TvAppVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="all"
+                        android:paddingLeft="12dp"
+                        android:paddingBottom="3dp"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/Android_lightGray"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

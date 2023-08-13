@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:icon="@drawable/appointment"
+        android:title="Appointments" />
+
+   <!-- <item
+        android:id="@+id/appointmentStatus"
+        android:title="Appointment Status" />-->
+
+    <item
+        android:id="@+id/newAppointment"
+        android:title="New Appointment" />
+
+    <item
+        android:id="@+id/rescheduleCancel"
+        android:title="Reschedule/Cancel" />
+
+    <item
+        android:icon="@drawable/user_account_box"
+        android:title="Treatment" />
+
+    <item
+        android:id="@+id/treatmentUpdate"
+        android:title="Treatment Update" />
+
+    <item
+        android:id="@+id/nextVisitAppointment"
+        android:title="Next Visit Appointment" />
+
+    <item
+        android:icon="@drawable/active_patient"
+        android:iconTint="@color/oldCanBtn"
+        android:title="Patients" />
+
+    <item
+        android:id="@+id/newRegistration"
+        android:title="New Registration" />
+
+    <item
+        android:id="@+id/patientsList"
+        android:title="Patients List" />
+
+    <item
+        android:id="@+id/pMSSetup"
+        android:icon="@drawable/active_setting"
+        android:iconTint="@color/oldCanBtn"
+        android:title="PMS Setup" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout_icon"
+        android:iconTint="@color/oldCanBtn"
+        android:title="Logout" />
+</menu>

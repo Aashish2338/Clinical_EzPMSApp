@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    tools:context=".Patients.PatientListActivity">
+
+    <include
+        android:id="@+id/Ll1111"
+        layout="@layout/common_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/Ll_444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ll1111"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addPatient_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/btn_radius_color"
+                android:gravity="center"
+                android:text="Add Patient"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Ll_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_SearchingByNameNumberId"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:layout_weight=".8"
+                android:background="@drawable/textbox_border"
+                android:hint="Search Patient By Name/Number/Id"
+                android:inputType="text|textNoSuggestions"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:textColorHint="#b3b3b3"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/Tvlogin_Title"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight=".1"
+                android:visibility="gone"
+                android:background="@drawable/btn_radius_color"
+                android:src="@drawable/ic_cloud_download" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Ll_44444"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ll_444"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="8dp"
+        android:paddingBottom="2dp"
+        android:text="Patient List"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textPatientsData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="No Patients Data Available"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ll_44444"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0.50"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/patientListRc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

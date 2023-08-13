@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#00afcc</color>
+    <color name="purple_700">#0375B9</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="bgcolormain">#ffffe5</color>
+    <!--light yellow-->
+    <color name="textcolormain">#838383</color>
+    <!--Light Black color main TextColor-->
+    <color name="bgcolorHeadings">#20b2aa</color>
+    <!--Light Sea Green-->
+    <color name="textcolorHeadings">#282828</color>
+    <!--Dark Blue color for text for Headings-->
+    <color name="textcolordanger">#ff0000</color>
+    <!--Red color for text for Danger-->
+
+    <color name="bgcolorAppointment">#0375B9</color>
+    <!--Sky Blue-->
+    <color name="bgcolorActionbars">#00afcc</color>
+    <color name="bgcolorActionbarsSelected">#80166f</color>
+    <!-- Purple Color-->
+    <color name="bgcolorCompetent">#4f9b2e</color>
+    <!-- Green Color-->
+
+    <color name="bgDrawer">#CC000000</color>
+    <!-- Drawer Layout Background Color .8 opacity-->
+    <color name="bgcolorDrawerElements">#80166f</color>
+    <!-- Drawer Layout Elements Background Color-->
+
+
+    <color name="errorColor">#ff0000</color>
+    <!-- Drawer Layout Elements Background Color-->
+    <!-- Purple Color-->
+    <color name="bgcolorDialogBoxes">#000000</color>
+    <color name="bgcolorDialogBoxesHeading">#ffffff</color>
+
+    <!--Buttons Styles-->
+    <color name="bgcolorbtn">#20b2aa</color>
+
+    <!--Spinner colors-->
+    <color name="bgcolorSpinner">#ffffff</color>
+
+    <color name="Black">#000</color>
+    <!--<color name="blue">#0000ff</color>-->
+    <color name="red">#ff0000</color>
+    <color name="red1">#F32585</color>
+    <color name="red2">#FF5722</color>
+    <color name="red3">#EA0654</color>
+    <color name="green">#2E8B57</color>
+    <color name="holo_red_dark">#ffcc00</color>
+    <color name="white">#ffffff</color>
+    <color name="white1">#FBF7F7</color>
+    <!--20b2aa  to make it header color Light Sea green-->
+
+    <color name="blue">#9018AFC7</color>
+    <color name="dark_gray">#333333</color>
+    <color name="orange">#CD9F1A</color>
+    <color name="pink">#90701562</color>
+
+    <color name="mustured">#c69413</color>
+    <!--dialog-->
+    <color name="colorPrimaryDark">#0072BA</color>
+    <color name="bgcolormainDialog">#000</color>
+    <color name="textcolormainDialog">#ffffff</color>
+    <color name="bgcolorHeadingsDialog">#000</color>
+
+    <color name="bgcolorbtnPink">#80166f</color>
+    <color name="textcolorOfHeadings">#80166f</color>
+    <!--Black-->
+
+    <color name="toolbarTransparent">#00FFFFFF</color>
+    <color name="rippleButton">#0274b9</color>
+    <color name="Android_lightGray">#D3D3D3</color>
+    <color name="AndroID_Gray">#d3d3d3</color>
+
+    <color name="List_Blue">#01B2DE</color>
+    <color name="List_yellow">#d3d3d3</color>
+
+    <color name="bgColorAllPages">#0072BA</color>
+    <color name="cancelBtn">#35393b</color>
+    <color name="oldCanBtn">#97989c</color>
+
+
+    <color name="transparent">#80000000</color>
+</resources>

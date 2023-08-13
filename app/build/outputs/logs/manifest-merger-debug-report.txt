@@ -1,0 +1,464 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\dfeb88c0c927e009433677929c093176\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\7da44f618a1effa667a62ae0a6dd953e\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9c8547f43bfc98a7c33c7a922993a2d\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2a128b5c171616a288ac379e0b3202ea\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b4ba3991114adbd142e6ddab7b7c6461\jetified-picasso-transformations-2.2.1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4dfabde9f9cf43eab198a0f0ea4b259c\jetified-volley-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\acdb25422962c481d6097055442e048f\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5f92e610e1079c48a881e00d47a96f6d\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\69a56cbb6c0cc0b250f98ad1b0e9cefd\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a2e54cca7b40b26d467754d10acabc45\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e74634e20d1ec32457b9cc4f401ffea1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\90ad92d9d7e544d3d7a553e07e526cde\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5fcf58f467c61301f7dd22175ddca6ba\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\fcc32fb6a5b1c720640eae2793bf295e\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b154dbc73687587a7ce14e229cc71d1e\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9d3d448a3878af78f8d5e2175d6f4332\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a5f1739a336003917307af1b7a40c6ec\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\7f64c1045ae362310688a10253c2a109\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9726f16beb884e69c8392eb74d42aa95\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4d3225ea5d57f620bf5356e2a6f066d6\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f9976ae113f170d60bfcc789044f411d\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b754b2dac55e2d093f3d16fae3e2b72a\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\957cdc958966d73857ef5cfef5ed5719\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\848758cc9d7219eb09821cfc25f727fb\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\cd94e8a9fc182c0588b5e9bb53d6e97a\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55aa10ff4d7db9e4d0b8c8d9d8dcb58d\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\259d6ac788dc5ebe081349befc6dd85e\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d08f0cb30559fc3e5877703ddc858255\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4093b31d1d8856fab158bd6629f09b47\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e43b6d8aa514061eb6410d92a2869947\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ba3fd86ec54c641abf326aa62702e47d\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+	package
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:1-138:12
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:11:22-78
+application
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:13:5-136:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\dfeb88c0c927e009433677929c093176\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\dfeb88c0c927e009433677929c093176\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4dfabde9f9cf43eab198a0f0ea4b259c\jetified-volley-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4dfabde9f9cf43eab198a0f0ea4b259c\jetified-volley-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\acdb25422962c481d6097055442e048f\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\acdb25422962c481d6097055442e048f\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\259d6ac788dc5ebe081349befc6dd85e\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\259d6ac788dc5ebe081349befc6dd85e\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4093b31d1d8856fab158bd6629f09b47\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4093b31d1d8856fab158bd6629f09b47\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:18:9-41
+	android:allowClearUserData
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:16:9-42
+	android:roundIcon
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:20:9-49
+	android:largeHeap
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:19:9-33
+	android:icon
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:17:9-44
+	android:allowBackup
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:22:9-46
+	android:usesCleartextTraffic
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:14:9-61
+activity#com.ezpms.ezpmsapp.Activities.AddUserActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:24:9-26:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:26:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:25:13-55
+activity#com.ezpms.ezpmsapp.Appointments.AppointmentsRegistrationActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:27:9-29:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:28:13-74
+activity#com.ezpms.ezpmsapp.Activities.ChangePasswordActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:30:9-32:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:31:13-62
+activity#com.ezpms.ezpmsapp.Activities.ViewSupportDetailsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:33:9-35:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:34:13-66
+activity#com.ezpms.ezpmsapp.Activities.NoticeDetailsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:37:13-61
+activity#com.ezpms.ezpmsapp.Activities.UserUpdateActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:40:13-58
+activity#com.ezpms.ezpmsapp.Appointments.UpdateAppointmentsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:42:9-44:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:43:13-68
+activity#com.ezpms.ezpmsapp.Treatments.NewTreatmentsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:45:9-47:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:46:13-61
+activity#com.ezpms.ezpmsapp.Treatments.TreatmentsHistoryActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:48:9-50:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:49:13-65
+activity#com.ezpms.ezpmsapp.Appointments.AppointmentDetailsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:52:13-68
+activity#com.ezpms.ezpmsapp.Activities.OTPVerfiyActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:54:9-56:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:56:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:55:13-57
+activity#com.ezpms.ezpmsapp.Activities.MonthViewsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:57:9-59:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:58:13-58
+activity#com.ezpms.ezpmsapp.Activities.WeekViewsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:60:9-62:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:62:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:61:13-57
+activity#com.ezpms.ezpmsapp.Activities.DayViewsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:63:9-65:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:64:13-56
+activity#com.ezpms.ezpmsapp.PMSSetup.AboutPMSActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:66:9-68:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:67:13-54
+activity#com.ezpms.ezpmsapp.Activities.WeekViewAppointmentActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:70:13-67
+activity#com.ezpms.ezpmsapp.PMSSetup.EditAdminProfileActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:72:9-74:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:73:13-62
+activity#com.ezpms.ezpmsapp.PMSSetup.UpdateUserIdActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:75:9-77:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:77:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:76:13-58
+activity#com.ezpms.ezpmsapp.Patients.UpdatePatientDetailsActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:78:9-80:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:79:13-66
+activity#com.ezpms.ezpmsapp.PMSSetup.VatechSVCActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:81:9-83:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:83:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:82:13-55
+activity#com.ezpms.ezpmsapp.PMSSetup.NoticePMSSetupActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:84:9-86:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:85:13-60
+activity#com.ezpms.ezpmsapp.PMSSetup.UsersPMSSetupActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:87:9-89:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:89:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:88:13-59
+activity#com.ezpms.ezpmsapp.Appointments.RescheduleCancelActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:90:9-92:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:91:13-66
+activity#com.ezpms.ezpmsapp.Appointments.NewAppointmentActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:93:9-95:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:94:13-64
+activity#com.ezpms.ezpmsapp.Patients.PatientRegistrationActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:96:9-98:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:98:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:97:13-65
+activity#com.ezpms.ezpmsapp.Treatments.NextVisitAppointmentActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:99:9-101:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:101:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:100:13-68
+activity#com.ezpms.ezpmsapp.Treatments.TreatmentUpdateActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:102:9-104:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:103:13-63
+activity#com.ezpms.ezpmsapp.Patients.PatientListActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:105:9-107:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:107:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:106:13-57
+activity#com.ezpms.ezpmsapp.Activities.PMSSetupActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:108:9-110:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:109:13-56
+activity#com.ezpms.ezpmsapp.Patients.NewRegistrationActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:111:9-113:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:113:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:112:13-61
+activity#com.ezpms.ezpmsapp.Activities.ForgetPasswordActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:115:13-62
+activity#com.ezpms.ezpmsapp.Activities.ClinitRegistrationActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:117:9-119:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:119:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:118:13-66
+activity#com.ezpms.ezpmsapp.Activities.LoginActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:121:13-53
+activity#com.ezpms.ezpmsapp.Activities.HomeActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:123:9-125:52
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:124:13-52
+activity#com.ezpms.ezpmsapp.SplashActivity
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:127:9-135:20
+	android:screenOrientation
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:128:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:130:13-134:29
+action#android.intent.action.MAIN
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:131:17-69
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:131:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:133:17-77
+	android:name
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml:133:27-74
+uses-sdk
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\dfeb88c0c927e009433677929c093176\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\dfeb88c0c927e009433677929c093176\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\7da44f618a1effa667a62ae0a6dd953e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\7da44f618a1effa667a62ae0a6dd953e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9c8547f43bfc98a7c33c7a922993a2d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9c8547f43bfc98a7c33c7a922993a2d\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2a128b5c171616a288ac379e0b3202ea\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2a128b5c171616a288ac379e0b3202ea\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b4ba3991114adbd142e6ddab7b7c6461\jetified-picasso-transformations-2.2.1\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b4ba3991114adbd142e6ddab7b7c6461\jetified-picasso-transformations-2.2.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4dfabde9f9cf43eab198a0f0ea4b259c\jetified-volley-1.1.0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4dfabde9f9cf43eab198a0f0ea4b259c\jetified-volley-1.1.0\AndroidManifest.xml:7:5-43
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\acdb25422962c481d6097055442e048f\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\acdb25422962c481d6097055442e048f\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5f92e610e1079c48a881e00d47a96f6d\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5f92e610e1079c48a881e00d47a96f6d\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\69a56cbb6c0cc0b250f98ad1b0e9cefd\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\69a56cbb6c0cc0b250f98ad1b0e9cefd\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a2e54cca7b40b26d467754d10acabc45\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a2e54cca7b40b26d467754d10acabc45\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e74634e20d1ec32457b9cc4f401ffea1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e74634e20d1ec32457b9cc4f401ffea1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\90ad92d9d7e544d3d7a553e07e526cde\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\90ad92d9d7e544d3d7a553e07e526cde\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5fcf58f467c61301f7dd22175ddca6ba\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5fcf58f467c61301f7dd22175ddca6ba\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\fcc32fb6a5b1c720640eae2793bf295e\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\fcc32fb6a5b1c720640eae2793bf295e\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b154dbc73687587a7ce14e229cc71d1e\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b154dbc73687587a7ce14e229cc71d1e\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9d3d448a3878af78f8d5e2175d6f4332\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9d3d448a3878af78f8d5e2175d6f4332\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a5f1739a336003917307af1b7a40c6ec\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a5f1739a336003917307af1b7a40c6ec\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\7f64c1045ae362310688a10253c2a109\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\7f64c1045ae362310688a10253c2a109\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9726f16beb884e69c8392eb74d42aa95\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\9726f16beb884e69c8392eb74d42aa95\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4d3225ea5d57f620bf5356e2a6f066d6\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4d3225ea5d57f620bf5356e2a6f066d6\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f9976ae113f170d60bfcc789044f411d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\f9976ae113f170d60bfcc789044f411d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b754b2dac55e2d093f3d16fae3e2b72a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\b754b2dac55e2d093f3d16fae3e2b72a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\957cdc958966d73857ef5cfef5ed5719\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\957cdc958966d73857ef5cfef5ed5719\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\848758cc9d7219eb09821cfc25f727fb\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\848758cc9d7219eb09821cfc25f727fb\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\cd94e8a9fc182c0588b5e9bb53d6e97a\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\cd94e8a9fc182c0588b5e9bb53d6e97a\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55aa10ff4d7db9e4d0b8c8d9d8dcb58d\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55aa10ff4d7db9e4d0b8c8d9d8dcb58d\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\259d6ac788dc5ebe081349befc6dd85e\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\259d6ac788dc5ebe081349befc6dd85e\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d08f0cb30559fc3e5877703ddc858255\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d08f0cb30559fc3e5877703ddc858255\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4093b31d1d8856fab158bd6629f09b47\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4093b31d1d8856fab158bd6629f09b47\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e43b6d8aa514061eb6410d92a2869947\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e43b6d8aa514061eb6410d92a2869947\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ba3fd86ec54c641abf326aa62702e47d\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ba3fd86ec54c641abf326aa62702e47d\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		ADDED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\EzPMS Projects\EzpmsApp_\app\src\main\AndroidManifest.xml

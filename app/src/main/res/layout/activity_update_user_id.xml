@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    tools:context=".PMSSetup.UpdateUserIdActivity">
+
+    <include
+        android:id="@+id/Ll1111"
+        layout="@layout/common_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Ll1111"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Ll_11111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/blue"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="8dp"
+                android:paddingBottom="4dp"
+                android:text="Update Mobile No. or Email Address"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ll_LoginId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_11111"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="8dp"
+                android:paddingBottom="2dp"
+                android:text="Your Current Login Id is : sumit.kumar@vatechglobal"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ll_OtherLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_LoginId"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="8dp"
+                android:paddingBottom="2dp"
+                android:text="Your Other Login Id is: 1234567890"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ll_44444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_OtherLogin"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="8dp"
+                android:paddingBottom="2dp"
+                android:text="New User Id(Email Address/Mobile Number)"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/Ll_444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_44444"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+                <LinearLayout
+                    android:id="@+id/Ll_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/et_EmailIdMobileNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight=".7"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Email Address/Mobile Number"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/sendOTP_Btn"
+                            android:layout_width="140dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_radius_color"
+                            android:gravity="center"
+                            android:text="Send OTP"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_OTPLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/et_OTPNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight=".7"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Enter OTP"
+                        android:inputType="text|numberPassword"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/verifyOTP_Btn"
+                            android:layout_width="140dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_radius_color"
+                            android:gravity="center"
+                            android:text="Verify"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/updateCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_444"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                android:paddingTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_7"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="0.50"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/updateUserId_Btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/btn_radius_color"
+                        android:text="Update User Id"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_7"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="0.50"
+                    android:gravity="right"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cancelUser_Btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_radius_cancel"
+                        android:gravity="center"
+                        android:text="Cancel"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/changePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/updateCancel"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/blue"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="8dp"
+                android:paddingBottom="4dp"
+                android:text="Change Password"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/changePassword"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Old Password"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/oldPassword_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint=""
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="New Password"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/newPassowrd_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint=""
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Confirm Password"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/confirmPassword_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint=""
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="0.50"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_ChangePassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:padding="8dp"
+                            android:text="Change Password"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="0.50"
+                        android:gravity="right"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/btn_Cancel"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight=".5"
+                            android:background="@drawable/btn_radius_cancel"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="Cancel"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

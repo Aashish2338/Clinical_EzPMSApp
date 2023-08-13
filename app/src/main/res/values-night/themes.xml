@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EzpmsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Widget.App.Spinner" parent="@style/Widget.AppCompat.Spinner">
+        <item name="overlapAnchor">true</item>
+        <item name="android:background">@drawable/shape_drop_down_normal</item>
+    </style>
+
+<!--    <style name="MainTheme" parent="MainTheme.Base"></style>-->
+    <!-- Base theme applied no matter what API -->
+   <!-- <style name="MainTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        &lt;!&ndash;If you are using revision 22.1 please use just windowNoTitle. Without android:&ndash;&gt;
+        <item name="windowNoTitle">true</item>
+        &lt;!&ndash;We will be using the toolbar so no need to show ActionBar&ndash;&gt;
+        <item name="windowActionBar">false</item>
+        &lt;!&ndash; Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette &ndash;&gt;
+        &lt;!&ndash; colorPrimary is used for the default action bar background &ndash;&gt;
+        <item name="colorPrimary">#0072BA</item>
+        &lt;!&ndash; colorPrimaryDark is used for the status bar &ndash;&gt;
+        <item name="colorPrimaryDark">#0072BA</item>
+        &lt;!&ndash; colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets &ndash;&gt;
+        <item name="colorAccent">#34b8ed</item>
+        &lt;!&ndash; You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight and colorSwitchThumbNormal. &ndash;&gt;
+        <item name="windowActionModeOverlay">false</item>
+
+        &lt;!&ndash;        <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>&ndash;&gt;
+        <item name="android:textSize">22sp</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>-->
+
+    <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <!--TabLayout Theme-->
+
+    <style name="TabLayoutThemes" parent="Widget.Design.TabLayout">
+
+        <item name="tabIndicatorColor">#FFFFFF
+        </item> <!-- tabIndicatorColor is color of underline each tabs -->
+        <item name="tabIndicatorHeight">2dp
+        </item>  <!-- tabIndicatorHeight is height of underline -->
+        <item name="tabSelectedTextColor">#212121
+        </item>    <!-- color of text when tabs be selected -->
+
+
+    </style>
+
+    <style name="ToolbarColored" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFF</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">#FFF</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:textColorSecondaryInverse">#FFF</item>
+    </style>
+
+    <string name="hint">
+    <font size="12sp">Search Doctor by Name|Mobile Number</font>
+  </string>
+
+    <!--DatePicker Styles-->
+    <!--    <style name="MyDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">-->
+    <!--        <item name="android:colorAccent">@color/textcolormain</item>-->
+    <!--        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>-->
+    <!--        &lt;!&ndash;<item name="android:colorAccent">@color/blue</item>&ndash;&gt;-->
+    <!--    </style>-->
+
+    <!--    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">-->
+    <!--        <item name="android:headerBackground">@color/bgcolorHeadings</item>-->
+    <!--        <item name="android:calendarTextColor">@color/textcolormain</item>-->
+    <!--        <item name="android:dayOfWeekBackground">@color/Black</item>-->
+    <!--        <item name="android:yearListSelectorColor">@color/red</item>-->
+    <!--        <item name="android:datePickerMode">calendar</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="SpinnerDatePickerDialog" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+    <!--        <item name="android:dialogTheme">@style/MyDialogTheme</item>-->
+    <!--        <item name="android:datePickerStyle">@style/MyDatePicker</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">-->
+    <!--        <item name="android:datePickerStyle">@style/MyDatePicker</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="MyDatePicker" parent="@android:style/Widget.Material.DatePicker">-->
+    <!--        <item name="android:datePickerMode">spinner</item>-->
+    <!--    </style>-->
+    <style name="popMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/textcolormain</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:listPreferredItemHeightSmall">40dp</item>
+        <item name="android:listPreferredItemPaddingLeft">5dp</item>
+        <item name="android:listPreferredItemPaddingRight">5dp</item>
+        <item name="textAppearanceSmallPopupMenu">
+            @style/TextAppearance.AppCompat.Widget.PopupMenu.Small
+        </item>
+    </style>
+
+<!--    <style name="MainTheme.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+    <style name="MainTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MainTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

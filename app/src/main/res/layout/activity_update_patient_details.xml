@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Patients.UpdatePatientDetailsActivity">
+
+    <include
+        android:id="@+id/Ll_0000"
+        layout="@layout/common_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ll_0000"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Ll_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="0.20"
+                android:focusableInTouchMode="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Ll_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/blue"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="Patient Profile"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Ll_444"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_2"
+                android:layout_marginTop="4dp"
+                android:layout_weight="0.50"
+                android:orientation="vertical"
+                android:paddingLeft="18sp"
+                android:paddingRight="18sp">
+
+                <LinearLayout
+                    android:id="@+id/Ll_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Title*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/titleSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/patientId_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Patient ID*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/patientRegId_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:hint="0000123"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/firstName_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="First Name*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/firstName_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="First Name"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lastName_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Last Name*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/lastName_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Last Name"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/dateOfBirth_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Date of Birth*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textbox_border"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/dateOfBirth_Pt"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight=".8"
+                            android:background="@drawable/textbox_border"
+                            android:clickable="false"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Date of Birth"
+                            android:inputType="date"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            android:textColorHint="#b3b3b3"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:id="@+id/calanderDOB_Im"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_weight=".2"
+                            android:src="@drawable/calendar_icon" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/age_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Age*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/age_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Enter Age"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bloodGroup_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Blood Group*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/bloodGroupSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingBottom="2dp"
+                    android:text="Gender"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <CheckBox
+                        android:id="@+id/maleCheck_Bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:buttonTint="#b3b3b3"
+                        android:text="Male"
+                        android:textColor="#b3b3b3"
+                        android:textSize="16sp" />
+
+                    <CheckBox
+                        android:id="@+id/femaleCheck_Bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".4"
+                        android:buttonTint="#b3b3b3"
+                        android:text="Female"
+                        android:textColor="#b3b3b3"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Mobile Number"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <EditText
+                            android:id="@+id/counrtyCodeNo_Et"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight=".2"
+                            android:background="@drawable/textbox_border"
+                            android:gravity="center"
+                            android:hint="+91"
+                            android:inputType="phone"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="10dp"
+                            android:paddingBottom="10dp"
+                            android:textColorHint="#b3b3b3"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/mobileNumber_Et"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_weight=".8"
+                            android:background="@drawable/textbox_border"
+                            android:hint="Mobile Number"
+                            android:inputType="phone"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="10dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="10dp"
+                            android:textColorHint="#b3b3b3"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TvPassword_Title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:paddingBottom="2dp"
+                        android:text="Email Address(Optional)"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/Et_EmailId"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="0.90"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Enter Email Address"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="100"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/medicalHistory_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Medical History*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/medicalHistorySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Other Medical History(Optional)"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/otherMedicalHistory_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Enter Other Medical History"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Ll_111"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/Ll_444"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:background="@color/blue"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:text="Address Details(Optional)"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/Ll_333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Ll_111"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp">
+
+                <LinearLayout
+                    android:id="@+id/Ll_44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_33"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/addressFirst_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Address 1*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/addressFirst_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:gravity="top|left"
+                        android:hint="Address 1"
+                        android:inputType="textMultiLine"
+                        android:lines="4"
+                        android:minLines="4"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_44"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/addressSecond_TvM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Address 2*"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/addressSecond_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:gravity="top|left"
+                        android:hint="Address 2"
+                        android:inputType="textMultiLine"
+                        android:lines="4"
+                        android:minLines="4"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_66"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_55"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Country"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/countrySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_66"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="State"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/stateSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_77"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="City"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/citySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sort_spinner"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_88"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingBottom="2dp"
+                        android:text="Postal Code"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/postalCode_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/textbox_border"
+                        android:hint="Enter Postal Code"
+                        android:inputType="text|textNoSuggestions"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp"
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ll_7"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/update_Btn"
+                            android:layout_width="200dp"
+                            android:layout_height="45dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:text="Update"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/edit_Btn"
+                            android:layout_width="150dp"
+                            android:layout_height="45dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:text="Edit"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/history_Btn"
+                            android:layout_width="150dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:text="History"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linear8"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/linear11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Ll_7"
+                        android:layout_weight="0.50"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/appointments_Btn"
+                            android:layout_width="150dp"
+                            android:layout_height="45dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/btn_radius_color"
+                            android:text="Appointment"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/cancel_Btn"
+                            android:layout_width="150dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:background="@drawable/btn_radius_cancel"
+                            android:gravity="center"
+                            android:text="Cancel"
+                            android:textAllCaps="false"
+                            android:textColor="#FFF"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Ll_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linear10"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="bottom|left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TvAppVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="all"
+                        android:paddingLeft="12dp"
+                        android:paddingBottom="3dp"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="@color/Android_lightGray"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
